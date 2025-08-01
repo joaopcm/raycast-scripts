@@ -2,21 +2,21 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Open Notion
+# @raycast.title Open Spotify
 # @raycast.mode silent
 
 # Optional parameters:
-# @raycast.icon https://svgl.app/library/notion.svg
-# @raycast.packageName Notion
+# @raycast.icon https://svgl.app/library/spotify.svg
 
 # Documentation:
+# @raycast.description Spotify
 # @raycast.author jopcmelo
 # @raycast.authorURL https://raycast.com/jopcmelo
 
 tell application "Comet"
     activate
     
-    set targetURL to "https://www.notion.so"
+    set targetURL to "https://open.spotify.com/collection/tracks"
     set tabFound to false
     
     -- Check all windows and tabs for the URL
@@ -24,7 +24,7 @@ tell application "Comet"
         repeat with w from 1 to count of windows
             repeat with t from 1 to count of tabs of window w
                 try
-                    if URL of tab t of window w contains "www.notion.so" then
+                    if URL of tab t of window w contains "open.spotify.com" then
                         set active tab index of window w to t
                         set index of window w to 1
                         set tabFound to true
