@@ -16,7 +16,7 @@
 tell application "Google Chrome"
     activate
     
-    set targetURL to "https://app.slack.com/client/T03UL8GCWKC"
+    set targetURL to "https://app.slack.com/"
     set tabFound to false
     
     -- Check all windows and tabs for the URL

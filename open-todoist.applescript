@@ -16,7 +16,7 @@
 tell application "Google Chrome"
     activate
     
-    set targetURL to "https://app.todoist.com/app/today"
+    set targetURL to "https://todoist.com/app/"
     set tabFound to false
     
     -- Check all windows and tabs for the URL
@@ -24,7 +24,7 @@ tell application "Google Chrome"
         repeat with w from 1 to count of windows
             repeat with t from 1 to count of tabs of window w
                 try
-                    if URL of tab t of window w contains "app.todoist.com" then
+                    if URL of tab t of window w contains "todoist.com" then
                         set active tab index of window w to t
                         set index of window w to 1
                         set tabFound to true

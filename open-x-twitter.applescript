@@ -2,21 +2,21 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Open X/Twitter
+# @raycast.title Open X (Twitter)
 # @raycast.mode silent
 
 # Optional parameters:
 # @raycast.icon https://svgl.app/library/x.svg
 
 # Documentation:
-# @raycast.description X/Twitter
+# @raycast.description X (Twitter)
 # @raycast.author jopcmelo
 # @raycast.authorURL https://raycast.com/jopcmelo
 
 tell application "Google Chrome"
     activate
     
-    set targetURL to "https://x.com/home"
+    set targetURL to "https://x.com/"
     set tabFound to false
     
     -- Check all windows and tabs for the URL

@@ -1,0 +1,124 @@
+{
+  "services": [
+    {
+      "name": "chatgpt",
+      "title": "Open ChatGPT",
+      "description": "ChatGPT",
+      "icon": "https://svgl.app/library/openai_dark.svg",
+      "targetUrl": "https://chatgpt.com/",
+      "domainCheck": "chatgpt.com"
+    },
+    {
+      "name": "discord",
+      "title": "Open Discord", 
+      "description": "Discord",
+      "icon": "https://svgl.app/library/discord.svg",
+      "targetUrl": "https://discord.com/channels/@me",
+      "domainCheck": "discord.com"
+    },
+    {
+      "name": "figma",
+      "title": "Open Figma",
+      "description": "Figma", 
+      "icon": "https://svgl.app/library/figma.svg",
+      "targetUrl": "https://www.figma.com/",
+      "domainCheck": "www.figma.com"
+    },
+    {
+      "name": "gmail",
+      "title": "Open Gmail",
+      "description": "Gmail",
+      "icon": "https://svgl.app/library/gmail.svg", 
+      "targetUrl": "https://mail.google.com/mail",
+      "domainCheck": "mail.google.com"
+    },
+    {
+      "name": "linear",
+      "title": "Open Linear",
+      "description": "Linear",
+      "icon": "https://svgl.app/library/linear.svg",
+      "targetUrl": "https://linear.app/",
+      "domainCheck": "linear.app"
+    },
+    {
+      "name": "mymind",
+      "title": "Open MyMind", 
+      "description": "MyMind",
+      "icon": "https://svgl.app/library/mymind.svg",
+      "targetUrl": "https://access.mymind.com/",
+      "domainCheck": "access.mymind.com"
+    },
+    {
+      "name": "notion-calendar",
+      "title": "Open Notion Calendar",
+      "description": "Notion Calendar", 
+      "icon": "https://svgl.app/library/notion.svg",
+      "targetUrl": "https://calendar.notion.so/",
+      "domainCheck": "calendar.notion.so"
+    },
+    {
+      "name": "notion",
+      "title": "Open Notion",
+      "description": "Notion",
+      "icon": "https://svgl.app/library/notion.svg",
+      "targetUrl": "https://www.notion.so",
+      "domainCheck": "www.notion.so"
+    },
+    {
+      "name": "postman", 
+      "title": "Open Postman",
+      "description": "Postman",
+      "icon": "https://svgl.app/library/postman.svg",
+      "targetUrl": "https://web.postman.co/",
+      "domainCheck": "web.postman.co"
+    },
+    {
+      "name": "slack",
+      "title": "Open Slack",
+      "description": "Slack", 
+      "icon": "https://svgl.app/library/slack.svg",
+      "targetUrl": "https://app.slack.com/",
+      "domainCheck": "app.slack.com"
+    },
+    {
+      "name": "spotify",
+      "title": "Open Spotify",
+      "description": "Spotify",
+      "icon": "https://svgl.app/library/spotify.svg",
+      "targetUrl": "https://open.spotify.com/collection/tracks", 
+      "domainCheck": "open.spotify.com"
+    },
+    {
+      "name": "todoist",
+      "title": "Open Todoist",
+      "description": "Todoist",
+      "icon": "https://svgl.app/library/todoist.svg",
+      "targetUrl": "https://todoist.com/app/",
+      "domainCheck": "todoist.com"
+    },
+    {
+      "name": "whatsapp",
+      "title": "Open WhatsApp", 
+      "description": "WhatsApp",
+      "icon": "https://svgl.app/library/whatsapp.svg",
+      "targetUrl": "https://web.whatsapp.com/",
+      "domainCheck": "web.whatsapp.com"
+    },
+    {
+      "name": "x-twitter",
+      "title": "Open X (Twitter)",
+      "description": "X (Twitter)",
+      "icon": "https://svgl.app/library/x.svg", 
+      "targetUrl": "https://x.com/",
+      "domainCheck": "x.com"
+    },
+    {
+      "name": "youtube",
+      "title": "Open YouTube",
+      "description": "YouTube",
+      "icon": "https://svgl.app/library/youtube.svg",
+      "targetUrl": "https://www.youtube.com/",
+      "domainCheck": "www.youtube.com"
+    }
+  ]
+}

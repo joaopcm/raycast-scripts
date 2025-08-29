@@ -16,7 +16,7 @@
 tell application "Google Chrome"
     activate
     
-    set targetURL to "https://www.figma.com/files/team/1181186012289002926/all-projects?fuid=1480991261878522517"
+    set targetURL to "https://www.figma.com/"
     set tabFound to false
     
     -- Check all windows and tabs for the URL
@@ -24,7 +24,7 @@ tell application "Google Chrome"
         repeat with w from 1 to count of windows
             repeat with t from 1 to count of tabs of window w
                 try
-                    if URL of tab t of window w contains "figma.com" then
+                    if URL of tab t of window w contains "www.figma.com" then
                         set active tab index of window w to t
                         set index of window w to 1
                         set tabFound to true

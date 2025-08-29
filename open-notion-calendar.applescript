@@ -47,4 +47,3 @@ tell application "Google Chrome"
         end if
     end if
 end tell
-

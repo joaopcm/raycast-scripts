@@ -1,0 +1,12 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "This project contains a reusable system for generating Raycast AppleScript files that open various web applications in Chrome. Instead of maintaining multiple duplicate files, all scripts are now generated from a single configuration file.",
+  "main": "generate-scripts.js",
+  "scripts": {
+    "generate": "node generate-scripts.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

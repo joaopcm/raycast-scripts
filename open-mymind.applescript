@@ -6,7 +6,7 @@
 # @raycast.mode silent
 
 # Optional parameters:
-# @raycast.icon https://play-lh.googleusercontent.com/F8-oRNLS5BT5zWC4qJpIGG3Yp89-OBYFkUh3ipZ1uyG25nPpNHgzez3BzxEJDufWrCs
+# @raycast.icon https://svgl.app/library/mymind.svg
 
 # Documentation:
 # @raycast.description MyMind
@@ -16,7 +16,7 @@
 tell application "Google Chrome"
     activate
     
-    set targetURL to "https://access.mymind.com/everything"
+    set targetURL to "https://access.mymind.com/"
     set tabFound to false
     
     -- Check all windows and tabs for the URL
@@ -47,4 +47,3 @@ tell application "Google Chrome"
         end if
     end if
 end tell
-

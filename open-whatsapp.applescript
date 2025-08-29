@@ -2,21 +2,21 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Open WhatsApp Web
+# @raycast.title Open WhatsApp
 # @raycast.mode silent
 
 # Optional parameters:
 # @raycast.icon https://svgl.app/library/whatsapp.svg
-# @raycast.packageName WhatsApp Web
 
 # Documentation:
+# @raycast.description WhatsApp
 # @raycast.author jopcmelo
 # @raycast.authorURL https://raycast.com/jopcmelo
 
 tell application "Google Chrome"
     activate
     
-    set targetURL to "https://web.whatsapp.com"
+    set targetURL to "https://web.whatsapp.com/"
     set tabFound to false
     
     -- Check all windows and tabs for the URL

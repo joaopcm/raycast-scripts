@@ -16,7 +16,7 @@
 tell application "Google Chrome"
     activate
     
-    set targetURL to "https://linear.app/resend/my-issues/assigned"
+    set targetURL to "https://linear.app/"
     set tabFound to false
     
     -- Check all windows and tabs for the URL
