@@ -2,21 +2,21 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Open Notion Mail
+# @raycast.title Open Gmail
 # @raycast.mode silent
 
 # Optional parameters:
-# @raycast.icon https://svgl.app/library/notion.svg
+# @raycast.icon https://svgl.app/library/gmail.svg
 
 # Documentation:
-# @raycast.description Notion Mail
+# @raycast.description Gmail
 # @raycast.author jopcmelo
 # @raycast.authorURL https://raycast.com/jopcmelo
 
 tell application "Google Chrome"
     activate
     
-    set targetURL to "https://mail.notion.so/inbox"
+    set targetURL to "https://mail.google.com/mail"
     set tabFound to false
     
     -- Check all windows and tabs for the URL
@@ -24,7 +24,7 @@ tell application "Google Chrome"
         repeat with w from 1 to count of windows
             repeat with t from 1 to count of tabs of window w
                 try
-                    if URL of tab t of window w contains "mail.notion.so" then
+                    if URL of tab t of window w contains "mail.google.com" then
                         set active tab index of window w to t
                         set index of window w to 1
                         set tabFound to true
