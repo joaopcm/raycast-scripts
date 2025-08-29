@@ -17,6 +17,17 @@ if (!fs.existsSync(templatePath)) {
 	process.exit(1);
 }
 
+// Deletes all files starting with "open-"
+const openScripts = fs
+	.readdirSync(__dirname)
+	.filter((file) => file.startsWith("open-"));
+
+console.log(`Deleting ${openScripts.length} files...`);
+
+openScripts.forEach((file) => {
+	fs.unlinkSync(path.join(__dirname, file));
+});
+
 // Load configuration and template
 const config = JSON.parse(fs.readFileSync(configPath, "utf8"));
 const template = fs.readFileSync(templatePath, "utf8");

@@ -10,7 +10,7 @@
     },
     {
       "name": "discord",
-      "title": "Open Discord", 
+      "title": "Open Discord",
       "description": "Discord",
       "icon": "https://svgl.app/library/discord.svg",
       "targetUrl": "https://discord.com/channels/@me",
@@ -19,7 +19,7 @@
     {
       "name": "figma",
       "title": "Open Figma",
-      "description": "Figma", 
+      "description": "Figma",
       "icon": "https://svgl.app/library/figma.svg",
       "targetUrl": "https://www.figma.com/",
       "domainCheck": "www.figma.com"
@@ -28,7 +28,7 @@
       "name": "gmail",
       "title": "Open Gmail",
       "description": "Gmail",
-      "icon": "https://svgl.app/library/gmail.svg", 
+      "icon": "https://svgl.app/library/gmail.svg",
       "targetUrl": "https://mail.google.com/mail",
       "domainCheck": "mail.google.com"
     },
@@ -42,7 +42,7 @@
     },
     {
       "name": "mymind",
-      "title": "Open MyMind", 
+      "title": "Open MyMind",
       "description": "MyMind",
       "icon": "https://svgl.app/library/mymind.svg",
       "targetUrl": "https://access.mymind.com/",
@@ -51,7 +51,7 @@
     {
       "name": "notion-calendar",
       "title": "Open Notion Calendar",
-      "description": "Notion Calendar", 
+      "description": "Notion Calendar",
       "icon": "https://svgl.app/library/notion.svg",
       "targetUrl": "https://calendar.notion.so/",
       "domainCheck": "calendar.notion.so"
@@ -65,7 +65,7 @@
       "domainCheck": "www.notion.so"
     },
     {
-      "name": "postman", 
+      "name": "postman",
       "title": "Open Postman",
       "description": "Postman",
       "icon": "https://svgl.app/library/postman.svg",
@@ -75,18 +75,18 @@
     {
       "name": "slack",
       "title": "Open Slack",
-      "description": "Slack", 
+      "description": "Slack",
       "icon": "https://svgl.app/library/slack.svg",
       "targetUrl": "https://app.slack.com/",
       "domainCheck": "app.slack.com"
     },
     {
-      "name": "spotify",
-      "title": "Open Spotify",
-      "description": "Spotify",
-      "icon": "https://svgl.app/library/spotify.svg",
-      "targetUrl": "https://open.spotify.com/collection/tracks", 
-      "domainCheck": "open.spotify.com"
+      "name": "youtube-music",
+      "title": "Open YouTube Music",
+      "description": "YouTube Music",
+      "icon": "https://svgl.app/library/youtube_music.svg",
+      "targetUrl": "https://music.youtube.com/",
+      "domainCheck": "music.youtube.com"
     },
     {
       "name": "todoist",
@@ -98,7 +98,7 @@
     },
     {
       "name": "whatsapp",
-      "title": "Open WhatsApp", 
+      "title": "Open WhatsApp",
       "description": "WhatsApp",
       "icon": "https://svgl.app/library/whatsapp.svg",
       "targetUrl": "https://web.whatsapp.com/",
@@ -108,7 +108,7 @@
       "name": "x-twitter",
       "title": "Open X (Twitter)",
       "description": "X (Twitter)",
-      "icon": "https://svgl.app/library/x.svg", 
+      "icon": "https://svgl.app/library/x.svg",
       "targetUrl": "https://x.com/",
       "domainCheck": "x.com"
     },
