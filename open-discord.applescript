@@ -13,7 +13,7 @@
 # @raycast.author jopcmelo
 # @raycast.authorURL https://raycast.com/jopcmelo
 
-tell application "Comet"
+tell application "Google Chrome"
     activate
     
     set targetURL to "https://discord.com/channels/@me"

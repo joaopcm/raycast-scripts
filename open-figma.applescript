@@ -13,7 +13,7 @@
 # @raycast.author jopcmelo
 # @raycast.authorURL https://raycast.com/jopcmelo
 
-tell application "Comet"
+tell application "Google Chrome"
     activate
     
     set targetURL to "https://www.figma.com/files/team/1181186012289002926/all-projects?fuid=1480991261878522517"
