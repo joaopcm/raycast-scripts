@@ -25,14 +25,6 @@
       "domainCheck": "www.figma.com"
     },
     {
-      "name": "gmail",
-      "title": "Open Gmail",
-      "description": "Gmail",
-      "icon": "https://svgl.app/library/gmail.svg",
-      "targetUrl": "https://mail.google.com/mail",
-      "domainCheck": "mail.google.com"
-    },
-    {
       "name": "linear",
       "title": "Open Linear",
       "description": "Linear",
@@ -87,14 +79,6 @@
       "icon": "https://svgl.app/library/youtube_music.svg",
       "targetUrl": "https://music.youtube.com/",
       "domainCheck": "music.youtube.com"
-    },
-    {
-      "name": "todoist",
-      "title": "Open Todoist",
-      "description": "Todoist",
-      "icon": "https://svgl.app/library/todoist.svg",
-      "targetUrl": "https://todoist.com/app/",
-      "domainCheck": "todoist.com"
     },
     {
       "name": "whatsapp",

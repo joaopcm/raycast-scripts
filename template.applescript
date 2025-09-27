@@ -13,7 +13,7 @@
 # @raycast.author jopcmelo
 # @raycast.authorURL https://raycast.com/jopcmelo
 
-tell application "Google Chrome"
+tell application "Comet"
     activate
     
     set targetURL to "{{TARGET_URL}}"
