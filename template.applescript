@@ -13,7 +13,7 @@
 # @raycast.author jopcmelo
 # @raycast.authorURL https://raycast.com/jopcmelo
 
-tell application "Comet"
+tell application "Dia"
     activate
     
     set targetURL to "{{TARGET_URL}}"

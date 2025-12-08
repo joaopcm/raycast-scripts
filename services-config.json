@@ -41,28 +41,12 @@
 			"domainCheck": "access.mymind.com"
 		},
 		{
-			"name": "notion-calendar",
-			"title": "Open Notion Calendar",
-			"description": "Notion Calendar",
-			"icon": "https://svgl.app/library/notion.svg",
-			"targetUrl": "https://calendar.notion.so/",
-			"domainCheck": "calendar.notion.so"
-		},
-		{
 			"name": "notion",
 			"title": "Open Notion",
 			"description": "Notion",
 			"icon": "https://svgl.app/library/notion.svg",
 			"targetUrl": "https://www.notion.so",
 			"domainCheck": "www.notion.so"
-		},
-		{
-			"name": "postman",
-			"title": "Open Postman",
-			"description": "Postman",
-			"icon": "https://svgl.app/library/postman.svg",
-			"targetUrl": "https://web.postman.co/",
-			"domainCheck": "web.postman.co"
 		},
 		{
 			"name": "slack",
@@ -105,12 +89,12 @@
 			"domainCheck": "www.youtube.com"
 		},
 		{
-			"name": "casaos",
-			"title": "Open CasaOS",
-			"description": "CasaOS",
-			"icon": "https://wiki.casaos.io/_assets/casaos-no-text.svg",
-			"targetUrl": "http://casa.os",
-			"domainCheck": "casa.os"
+			"name": "phived",
+			"title": "Open Phived",
+			"description": "Phived",
+			"icon": "https://www.phived.com/icon-512x512.png",
+			"targetUrl": "https://www.phived.com/",
+			"domainCheck": "www.phived.com"
 		}
 	]
 }
