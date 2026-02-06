@@ -9,6 +9,14 @@
 			"domainCheck": "chatgpt.com"
 		},
 		{
+			"name": "claude",
+			"title": "Open Claude",
+			"description": "Claude",
+			"icon": "https://svgl.app/library/claude-ai-icon.svg",
+			"targetUrl": "https://claude.ai/",
+			"domainCheck": "claude.ai"
+		},
+		{
 			"name": "discord",
 			"title": "Open Discord",
 			"description": "Discord",
@@ -33,6 +41,14 @@
 			"domainCheck": "linear.app"
 		},
 		{
+			"name": "todoist",
+			"title": "Open Todoist",
+			"description": "Todoist",
+			"icon": "https://svgl.app/library/todoist.svg",
+			"targetUrl": "https://app.todoist.com/app/today",
+			"domainCheck": "app.todoist.com"
+		},
+		{
 			"name": "mymind",
 			"title": "Open MyMind",
 			"description": "MyMind",
@@ -49,20 +65,20 @@
 			"domainCheck": "www.notion.so"
 		},
 		{
+			"name": "notion-calendar",
+			"title": "Open Notion Calendar",
+			"description": "Notion Calendar",
+			"icon": "https://svgl.app/library/notion.svg",
+			"targetUrl": "https://calendar.notion.so",
+			"domainCheck": "calendar.notion.so"
+		},
+		{
 			"name": "slack",
 			"title": "Open Slack",
 			"description": "Slack",
 			"icon": "https://svgl.app/library/slack.svg",
 			"targetUrl": "https://app.slack.com/",
 			"domainCheck": "app.slack.com"
-		},
-		{
-			"name": "youtube-music",
-			"title": "Open YouTube Music",
-			"description": "YouTube Music",
-			"icon": "https://svgl.app/library/youtube_music.svg",
-			"targetUrl": "https://music.youtube.com/",
-			"domainCheck": "music.youtube.com"
 		},
 		{
 			"name": "whatsapp",
@@ -89,12 +105,20 @@
 			"domainCheck": "www.youtube.com"
 		},
 		{
-			"name": "phived",
-			"title": "Open Phived",
-			"description": "Phived",
-			"icon": "https://www.phived.com/icon-512x512.png",
-			"targetUrl": "https://www.phived.com/",
-			"domainCheck": "www.phived.com"
+			"name": "visor",
+			"title": "Open Visor",
+			"description": "Visor",
+			"icon": "https://dashboard.visorfinance.app/images/icon-9920728b409dc14d08a31b7dfe77a698.svg?vsn=d",
+			"targetUrl": "https://dashboard.visorfinance.app/",
+			"domainCheck": "dashboard.visorfinance.app"
+		},
+		{
+			"name": "excalidraw",
+			"title": "Open Excalidraw",
+			"description": "Excalidraw",
+			"icon": "https://excalidraw.com/apple-touch-icon.png",
+			"targetUrl": "https://excalidraw.com/",
+			"domainCheck": "excalidraw.com"
 		}
 	]
 }
