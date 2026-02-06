@@ -84,7 +84,7 @@
 			"name": "whatsapp",
 			"title": "Open WhatsApp",
 			"description": "WhatsApp",
-			"icon": "https://svgl.app/library/whatsapp.svg",
+			"icon": "https://svgl.app/library/whatsapp-icon.svg",
 			"targetUrl": "https://web.whatsapp.com/",
 			"domainCheck": "web.whatsapp.com"
 		},
