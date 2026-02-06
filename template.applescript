@@ -47,3 +47,5 @@ tell application "Chrome"
         end if
     end if
 end tell
+
+do shell script "/opt/homebrew/bin/aerospace workspace 1"
